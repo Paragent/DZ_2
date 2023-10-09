@@ -30,7 +30,7 @@ int main(){
             sum_of_points = -(~sum_of_points);
         }
 
-        cout << u_x << " | " << u_y << " | " << rad << " | " << sum_of_points << endl;
+        //cout << u_x << " | " << u_y << " | " << rad << " | " << sum_of_points << endl;
 
     }
     if (sum_of_points >= 10){
