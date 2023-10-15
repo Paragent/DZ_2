@@ -5,14 +5,13 @@
 using namespace std;
 
 int main(){
-    setlocale(LC_ALL, "Russian");
     srand(time(NULL));
 
     double x, y, max = 5.0, min = -5.0, rad, u_x, u_y;
     int sum_of_points = 0;
 
     for(int i = 1; i<=5; i++){
-        cout << "Сделайте " << i << "-ый выстрел:" << endl;
+        cout << "Shot number: " << i << endl;
 
         cin >> u_x >> u_y;
         
@@ -34,9 +33,9 @@ int main(){
 
     }
     if (sum_of_points >= 10){
-        cout << sum_of_points << " очков" << " - Мегахорош";
+        cout << sum_of_points << " points" << " - Good Boy";
     }else {
-        cout << sum_of_points << " очков" << " - Лузер";
+        cout << sum_of_points << " points" << " - Loser";
     }
     return 0;
 }
